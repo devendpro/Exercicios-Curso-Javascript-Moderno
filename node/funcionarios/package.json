@@ -2,8 +2,10 @@
   "name": "funcionarios",
   "version": "1.0.0",
   "description": "Pacote funcionários. Apenas para desenvolvimento conforme aula curso Javascript Moderno - Udemy",
-  "main": "index.js",
+  "main": "funcionarios.js",
   "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "William Martins",
