@@ -1,9 +1,12 @@
 // Tagged templates - processa o template dentro de uma função
 function tag(partes,...valores){
-    
+    console.log(partes)
+    console.log(valores)
+    return 'Outra string'
 }
 
-const pessoa = {nome : 'Maria', idade: 60}
-const novapessoa = {ativo: true,...pessoa}
+const aluno = 'Will'
+const situacao = 'Aprovado'
 
-console.log(pessoa,novapessoa)
+//console.log(aluno,situacao)
+console.log(tag `${aluno} esta ${situacao}.`)
