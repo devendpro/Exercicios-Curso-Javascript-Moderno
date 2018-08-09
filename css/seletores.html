@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="css/tag.css">
     <style>
         /* ... */
+        /* Asterisco = seletor unirversal */
+        /* Ponto = Seletor de classe */
+        /* Hashtag = Seletor de ID */
+        /* > = Pega o seletor que esta diretamente aninhado. Ex.: #aninhado > div */
+        /* + = Pega o seletor diretamente ligado. Ex.: p + ul */
+        /* ~ = Pega o seletor que tem o mesmo pai */
+        /* Atributo = Atua sobre todos seletores que tem o mesmo atributo. Ex.: [feira].  */
+        /* Atributo e propriedade = Atua sobre atributos com determinada propriedade. Ex.: [feira=casa] */
+        /* Atributo contem propriedade = Atua sobre atributos com determinada propriedade. Ex.: [feira~=casa] */
+        /* Atributo contem propriedade, ainda que seja apenas uma parte da string= Atua sobre atributos com determinada propriedade. Ex.: [feira*=ca] */
+        /* span:nth-child(1) = Pega o primeiro filho de `alguém` */
+        /* span:nth-child(odd) = Pega os filhos impares de `alguém` */
+        /* span:nth-child(even) = Pega os filhos pares de `alguém` */
+
+        section:nth-child(2) {
+            color: #ff0;
+            background-color: #f77;
+        }
     </style>
 </head>
 
@@ -32,6 +50,7 @@
                     <section class='tag'>
                         <span class='tag'>1</span>
                         <p class='tag'>2</p>
+                        <p class='tag'>4</p>
                         <span class='tag'>3</span>
                     </section>
                 </div>
